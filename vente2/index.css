@@ -1,0 +1,125 @@
+html, body {
+    margin: 0;
+    padding: 0;
+	font-family:"3";
+}
+div#wp{
+ background:#F5F3FC url(img/logo.png) no-repeat center;
+ background-size: 24%;
+ height:95%;
+ padding-top:10;
+}
+
+div#div1{
+  background:#536693 url(img/pick.jpg) no-repeat top;
+  background-size: 3%;
+  height:100%;
+}
+div#div1 table{
+  color:#ccc;
+  font-size:17px;
+  font-family:"2";
+}
+div#div2{
+ font-family:"2";
+ background-color: #ccc;
+ height:35%;
+ list-style-type:none;
+
+}
+#div2 li{
+  list-style-type:none;
+  padding-top:5;
+}
+a#a3{
+ text-decoration:none;
+ color:#bbb; 
+} 
+a#a3:hover{
+ text-decoration:none;
+ color:#fff; 
+} 
+#div2 a{
+font-size : 18;
+color:#405170;
+text-decoration:none;
+}
+#div2 a:hover{
+text-decoration:none;
+color:#6082a8;
+}
+
+div#div3{
+ background-color: #333;
+ height:8%;
+}
+font#blanc{
+color:#bbb;
+}
+
+p.text1{
+font-family:"2";
+color:#fff;
+font-size:18;
+}
+
+#menu1{
+width:100%;
+text-align:right;
+font-family:"2";
+font-size:15;
+color:#536693;
+list-style-type:none;
+margin:0 0;
+padding:0;
+}
+#menu1 li{
+	font-size:15px;
+	font-family:"2";
+}
+#menu1 a{
+color:#536693;
+font-size:1em;
+text-decoration:none;
+float:right;
+padding-left:40;
+}
+#menu1 a:hover{
+text-decoration:none;
+color:#111;
+}
+a {
+text-decoration:none;
+}
+div#start{
+background-color:#536693;
+color:#eee;
+font-size:20;
+font-family:"2";
+width:180px;
+padding-top:8;
+padding-bottom:8;
+/*-----------*/
+-moz-box-shadow: 0 0 5px 2px #888;
+-webkit-box-shadow: 0 0 5px 2px#888;
+box-shadow: 0 0 7px 2px #888;
+border-radius:4px;
+border-color:#000;
+}
+div#start:hover{
+background-color:#333;
+color:#fff;
+}
+
+@font-face {
+	font-family:"1";
+	src: url('font/font-1.ttf');
+}
+@font-face {
+	font-family:"2";
+	src: url('font/font-2.ttf');
+}
+@font-face {
+	font-family:"3";
+	src: url('font/font-3.ttf');
+}

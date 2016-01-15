@@ -1,0 +1,91 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="admin.aspx.cs" Inherits="vente2.Admin.admin" %>
+
+<html>
+<head runat="server">
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title></title>
+	<link href="admin.css" rel="stylesheet" type="text/css"><link href="annonce.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+</head>
+	<body >
+	 <form id="form2" runat="server">
+	<div id="wp" >
+		<table width="90%" border="0" cellspacing="0" cellpadding="0" align=center >
+			<tr>
+				<td width="10%">
+					<a href="/index.aspx"><img src="img/logo3.png" height="82px"></a>
+				</td>
+				<td width="70%" align="right">
+					<ul id="menu1">
+						<li><a href="/aide.aspx"> AIDE</a></li>
+			 <li><a href='/deconnexion.aspx'> DECONNEXION </a></li>
+			 <li><a href='/compte.aspx'> MON COMPTE </a></li>
+        
+						<li><a href="/deposer.aspx"> DIPOSER UNE ANNONCE </a></li>
+						<li><a href="/annonces.aspx"> ANNONCES </a></li>
+						<li><a href="/index.aspx"> ACCUEIL </a></li>
+					</ul>
+				</td>
+				<td width="20%" align=center>
+					<a href="/index.aspx"><img src="img/chi3ar1.png" height="82px"></a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	
+	<div id="div1">
+					<div id=thediv>
+						<br><br><br><br><br><br>
+						<center class="title" ><b class="bbb">administartion</b></center>
+						<div class="menuadmin" >
+							<a href="admin-clients.aspx">clients</a>&nbsp;&nbsp;•&nbsp;&nbsp;
+							<a href="admin-bloques.aspx">liste noire</a>&nbsp;&nbsp;•&nbsp;&nbsp;
+							<a href="admin-annonces.aspx">annonces</a>&nbsp;&nbsp;•&nbsp;&nbsp;
+							<a href="admin-signales.aspx">articles signalés</a>
+						</div>
+					</div>
+	</div>
+
+	
+	<div id="div2">
+		<table width="1100px" border="0" cellspacing="0" cellpadding="0" align=center height=100% >
+			<tr valign=middle>
+				<td width="34%" height="100%">
+					<a href="/index.aspx"><img src="img/logo2.png" width="120px"/></a>
+				</td>
+				<td width="22%">
+						<ul>
+							<li>DEMMARER</li>
+							<li><a href="/inscription.aspx">Inscrivez-vous</a></li>
+							<li><a href="/deposer.aspx">Déposer une annonce</a></li>
+						</ul>
+				</td>
+				<td width="22%">
+					<ul>
+						<li>SERVICES</li>
+						<li><a href="/annonces.aspx">Consulter les offres</a></li>
+						<li><a href="/aide.aspx">Aide</a></li>
+					</ul>
+				</td>
+				<td width="22%">
+					<ul>
+						<li>A PROPOS</li>
+						<li><a href="/about.aspx">Qui sommes-nous ?</a></li>
+						<li><a href="/contacter.aspx">Cantact</a></li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	
+	<div id="div3">
+		<table width="90%" border="0" cellspacing="0" cellpadding="0" align=center height=100% >
+			<tr valign=middle>
+				<td><font id="blanc">© 2013-2014 Gherssa Kbeera Store | Tous les droits sont reservés</font></td>
+			</tr>
+		</table>	
+	</div>
+	</form>
+	</body>
+</html>
